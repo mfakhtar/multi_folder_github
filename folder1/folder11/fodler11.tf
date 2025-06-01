@@ -9,5 +9,9 @@ resource "null_resource" "null5008" {}
 
 resource "null_resource" "null2908" {}
 
+module "null" {
+  source = "../../folder2/folder22"
+}
+
 
 
